@@ -1,0 +1,6 @@
+[aix]
+192.168.138.54 ansible_user=root
+prod-oracle ansible_ssh_host=192.168.143.213 ansible_user=root ansible_password=abcd1234
+uat-oracle ansible_ssh_host=192.168.143.209 ansible_user=root 
+[ibmi]
+192.168.138.15 ansible_user=yanwei  ansible_password=abcd1234

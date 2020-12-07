@@ -1,0 +1,3337 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "hosts_ibmi.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "47e77f005f43c7734df527f41fb007b4feba58d230f80431c3229b004e82579a",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58b5a167904c91786df167dd097ab76aed73ffba6cc746a3624c2a5bbf62ef6f",
+   "format": 1
+  },
+  {
+   "name": "plugins/action",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_synchronize.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "539d856da5703c22ca8c41007137b1f9094b255fefad96812cd0dfe6622b0095",
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_fetch.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1c99e334ed5564520dfd75a3725e743b7313e97fdcb687f1740399b248a3cca0",
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_script.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a0775653c22473878be4e8e6775e1374dcefe963ee75b93c12b7f54f14f3211",
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_copy.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "535a4a795e42590c1fc71ae1f53f3987d0550d6c401f50a3240993453af45cd0",
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_reboot.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6c639feeadf94236820089c4c1c632ee2868483c3648d5ad6074d079ffca067d",
+   "format": 1
+  },
+  {
+   "name": "plugins/action/ibmi_synchronize_files.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6dbecd5199c63248c4a6b3bb2f97c8890291fbbdc673b9026ed6b331836a50b",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/ibmi",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/ibmi/temp_directory.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b9ce2ede1cf0b51a76766ca84c96dc64a39c48a9e8a2613f6bdd3e899a09c87a",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/ibmi/db2i_tools.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec60b352f2fc0e71f3d88be5a40122876c21d2345442bfda12c7efcb9cc88f0e",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/ibmi/ibmi_module.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "30834a0cf27af6da5a0dc284914913df1196e2d463b91695fc216f7d047545c9",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/ibmi/ibmi_util.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "19e486ac858ef941fa2c108a8e51601f3250ad65e57e571ac0c9be095fe77614",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_device_vary.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c939823bd70f6b862274d00223f06ca6471f7c40eb4f717501bd466a969bb3d2",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_module_config.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aac38403c35424e707a6d1e13fff079c5e87bb89dc33de326fd882acd8c61def",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sync_files.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a49b44ca965baf1b9f49074b1a5fe04a4e62e89eb08bf4961e69ca0f20ae9074",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_tcp_interface.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7831e569b26402ae22d8530e62a48941535c40141e0496cf3f83b02991c1948f",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_job.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec78f39c947b14fde3ba474f16aaec5ba58b20becc358203770e73e7234d64e3",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sqlite3.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "12a3e3f405607b702ad9c3649311a7f214d711de3ad0bf0ca9ef83a2bcf04562",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_save_product_to_savf.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "30214ea1e9a5dd4b5994fc85d6a81f6d450f187fedc66bee2fee937f5842b1a7",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_get_nonconfigure_disks.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e254ac11e81dc1dea7b679bbc46cea0ee1807e928e2835ff390b3dd409a4a8fb",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_synchronize.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ff40671842911be0e9ebbd8b77632e14dbcd7b4d32b35ac8193b171d7d4cebbd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_user_and_group.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "66acba6fd5fe95952b6273823c489259ff26fdd726c8c902ef74189f08e393de",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_object_save.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d413b265d3d0008d34d94020c0ea907a20856b67da3b7cc010804bebbf6d68e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_at.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8f337ec02a67433606112c4b4827a8848141906fb10f142c503f8b211e64f36",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sql_execute.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5827c197cb30486538f7361bda50e4c59b20731b6127d1654b93501e76cf452f",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_script_execute.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a85c31f31be1d0efc7488b378b1a67c820fd021bc5c2a5c61dbe0e42110f7a08",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_display_fix.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dc2664825f3d6980cffce5046f70dcc32d9c326f78c4d812e85ef6a8e980236e",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_nrg_link.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aec5af3c4fb21db8c625ac8858c51126e6bf35f9ee1112fc0dc199a77dd37ce9",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_submit_job.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "505cba2bcbdbf77b962744db5cfcf53417a040582361d9f0a5b1cef96bf4d194",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_tcp_server_service.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8dda7e70abe195ac709a9e36b7b9a15679aee5aca7deb43905877d21ea674f22",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_iasp.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "966ac22ec0bcd1c9371af2cf4e59a83b1a78eed2b50e42152eb56fc797159af2",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_fetch.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0b458c781fea01d8c7002ce35736573898935ca61761235b218e1fd3b572043",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_object_find.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ddc5e45ad146a6f05f6e1a3a00121c9359bb436ee8afcf18133fab5fc97bdbcd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_cl_command.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0d441131789921c33d634f3725e8ac7fe811f316a4786dbcdb24769fb0ebe82b",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sql_query.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dad4d7339cc0d82f79b7bf602c933dc7e17a043efc7b7e0a3f2f3d230b491e92",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_lib_restore.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05d38f7049004f304c5742b046af7fdcff7af51520fd53bd9357381d00a880d4",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_fix_group_check.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "edef545c535d2dca35e19d3e93a7c189ad77903a496ccb78ac8a9d2f90dc0cff",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_end_subsystem.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6604993c16490d8c05692e29301200bace5ca2ed207baf5146a71c78a6769918",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_query_job_log.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e62916226ce876f1fa6c1527e506f8bddb042ccae91314d65f5abddb74f975a5",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_object_restore.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a1f5ffb0c93e21d941cc455fc133c3f893fb9fcabd3081cbe254c55456ecb8f5",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_fix_imgclg.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e05ee03f5873bed5f88a74ab5cb210a4ee80a526d5e4be2970b16296a48a7b8d",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_script.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cbab65ed79d497e940829976e47ac07a834418f080892dc983c1ef1ad04cce42",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sync.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "875b82d96d1e6970c943f42dadbbcf0218d20968f53fb884af7ad631f9f47ef1",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_message.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2c6f2c36a1ee92f6b4e83d91bf84b15434e9a80646868db3827fdc1c3bc7fb73",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_sysval.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "45f73d068b6996910551f7347971a4fa2233474ff03b72c7b334204a48aa1f11",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_object_authority.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ea6b70e09e6d17f1d67881e4dd8fd684b3418a876be1282b809f345e36fd0eb0",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_uninstall_product.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3bf2259ece74f369d2910c9dc04e877245994dbc59203732248b8ea630454e22",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_host_server_service.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8962951ec36d105a997ce4fbb77627d023869d06ea32dd575737b13170b8976",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_copy.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "afbc73fb62614f50db1069fc09468094d431573a56019b602688c4f6f28e89de",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_lib_save.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "683301a093a8184092c83ee3039e94e76b913243ea39dfb37e12a2f134513213",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_display_subsystem.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "086782b543b0323fa1411c5b5a9277ed67ffbcd4e3c4205e46b6d8257d75b0e0",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_reboot.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c45ea98e806bed81e81c6d7748afd663875e99c9832b5c1541cc91f8cb37c4f",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_ethernet_port.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c10a2ca3f7877cc4600e4a8c54e87272062c8f68ece99154188db739d9fb3ae0",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_synchronize_files.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80c250846b1cd0c24217e34b012cf76aeca0bfe9d2284561cf9c7d2904720ab1",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_fix.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "46322a5853130fbc5d1d5df3782a09a4d3afda4fabea72f119733e74b1ad30fd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_start_subsystem.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ef9296b4d84eb7898942514634e49d1bef59fb6a03320f57791392fdbbef793",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_install_product_from_savf.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "354a9ddbddb3fce7a4c8836293d3b6d700477f19ee214cf64f452bd7619fac6a",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/ibmi_reply_message.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e94e1337ae70b45e7795725fa6c4dc85a9708a3414e3b850b9b87da8d1f5a80",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_server_service",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_server_service/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_server_service/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25645bd57f2ad584b559bd7d84f314dbb1293bf7a11317fc6a49cca98e887c53",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_server_service/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sqlite3",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sqlite3/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sqlite3/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a020bc638635129c4f92e7dc1e86b616dd43d32c3da14e9e634e185fa3e90108",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sqlite3/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_subsystem",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_subsystem/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_subsystem/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "67a45c82fe079f7a23c1879df14d88837efe5333d227bef99d9b87482ed36500",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_subsystem/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/primary.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0031be177dc97af47202f86ec245604c1b05c8c9e79af8259760ba2e4d53d582",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/secondary.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cf3650b4ceeadaab625e3d21d8cd714d6b92860792633d9e282c0c9ee09c82de",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/udfs.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8177aa61020fb3d3af7f0790afc5adef20e332d8d66b40fc42b370bccc4c3af",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "af221ea1e057dcdb7c090aaaf688aa92942bd3559c5f6bf3a191d5c4e5c0e895",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "136b491e985fc8f87ea9674aea7a9c97df5a6a2c56a72cbde69096b93825ed20",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "17e0dceca219695d4ad9585e6387269c602fd5c631214c5b6f9e3eb95f37d9e3",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_iasp/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/tasks/windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4725f62e1e75f6fac515f3607d14e4c77a17f2c989cc687eaa2fd98d0509f29e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/tasks/default.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2441ac1753320d2cd3bea299c160540e6ae31739ed235923ca478284d1fcfe09",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "766ab141899717320ba54e2bb1a6ba8cbc3cc7642d0023670154b49981ed1a91",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/setup_remote_tmp_dir/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c81323aba3baf93c55edc6fa04592061424ca07ba1267702ee88d4b84c3839fd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/tasks/sql.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b12631738636242d36e35c6e262708d93f4548a19f78672ce009644e87d240ed",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15ed0aa2cc8c09e56c307c43bffcabaefac1438feb890c940ca62c3cd2a1639b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/tasks/cl.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d51fe40fee21a355952846c4dc782b180b4019609a1099abd9a35eacfaa7c65a",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "169dc517f5b01c1e7b627ac134730fb61e0ff6d3b2595ce1542da0b1f6738a69",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/cl1.cl",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "56521670b49e1751b7e513bbfe8b9388a8ff717076447bf011ba8ee45bacac76",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/iasp_cl.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b63f964c5a8991281f7484a43832b09ded70ba4d39f826837491ed3884500c52",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/cl4.text",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1bc613e7782d1d8b8d689adc30d05998bbaa0f0d3ce24d9499b333eff0d5a9a7",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/script",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/script/iasp_sql.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "776b60906e201d2280a21089b0b99e84a349e58c74e06c38d8d1733770711e9a",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/script/cl2.cl",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b038a5a370567ccdd782b45e2d17fad6c610bdecba2cdfaabc82b535498fa47d",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/sql1.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1917796f3e53811934d6de54339f16af395c47766fe60c2574c4e1c75903fb18",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/sql2.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39a298de92b23d959195d4c51f34b31f413bafb94dda899b5923a881d4937ffa",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/files/cl3.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "197f5e7013b95d133c85b94b9e688ebb944e4378a0b2fc9a0dad1c5bbe7c95b7",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_script/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3850af671c04955016ea2bcb9e30a67f6429d30751d45de133f47f843702e41c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files/files/MYSAVF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90b71904f33f601528909831db98425d236c5b744ddcddfd97bfc1604f6d27f2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sync_files/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/save_negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "666c1fd58261ac2cf84ed3a142cf720135f5e113681357d1df630a68b854106d",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/install_opts.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "328ebc2e0c910c61da78ad7bc9483c8084ec888db203b5b05548a9124f98ca34",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/install_negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "969a4420192804a90b66afd467e493eddd3856d259f13ad7f3dce1d408da7e59",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/special_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75d0ed31e6e3fffd0e892991e975460aca7d0cd63380c9ae9b90b31c1b37ce90",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/save_product.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ae9ee56e2fc27db3e232a0cf9c03ead7345c4063ee7510cc8318514e126a768a",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/uninstall_product.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "66df8174a3b1b6845fcfb533ae79b941be7e0fad2f01ce351ef964fdbfc92f50",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/simple_save_install_uninstall.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b20367f58989cac43a20358a9f97917299b93e7e2a4a504be88bc57a1f6e237",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/install_product.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "13dd5b217c2dd59d9f97f7e45757989c0cb5fac07036d9bf6a53a8852f0b8104",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0904802ebdb2394b358c99685c0eef74efce59b669a1a78a99ade84e571fc034",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_save_install_product/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60945d49535300be8e42108658dba31fcd5d665fc40d6f186798e7e0682320ae",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/tasks/restore_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f5b2b1c57d65a689f7809797854f172db5baa4704ba86a891accdd1ef4943ec8",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/tasks/dlt_crt_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5fd779251b9ba80cc98f3cc19fa11ff5b72febeb85e2bcd7281bcfda25f2a68f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "780ce1c3bf0365b17942a871441a7f69289336a3443788b4fd75228cae796ac8",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/files/SAVRST74.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "358a724bbb94f4ece44c7bdef05a29a4982f47485558324ce72a43f112c0fc57",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/files/IBMISAVF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b95a245ed9ac82d9f9f85cf884b1dc3bd2371e053fa5e01f4b836b12a4be2b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_restore/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sysval",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sysval/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sysval/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b43a0f23cc040dbe6c2ff45ee79a5072f670bbf55b7a74348d7e7141ceea92a4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_group_check",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_group_check/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_group_check/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a21c3ead2163f8a08eeb09c6fcd4e49100412f1210fb72e6ee6296113d49ec4a",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_group_check/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/tasks/ibmi_copy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2cdccfc2218c2a4f5cafcbcca6f71c0ffadf45612c48ced330d53ab78f9c2d3d",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "defd6d38c875a17241b1f5ff6786c29b807749e9377ddcc57e7b2ae033152842",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acf598ae5c1c202ba4be7e3b6348e05a84f22335d7c9c00c896ad71bbd996518",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files/ARCHLIB.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d79dd96084d7e872f64a276999925fb429d0533cbc15d0238a87440bb60c22a1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files/SAVRST.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad220c99f72bf3c9ca2a809f7e1f9a4f0d0eee19c03b3a8799c0cba56ea52da2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files/foo.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6a5ff9795209b3d64cb5c04d574515413f9fec7abde49d66b44de90d1e0db14",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files/PF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad220c99f72bf3c9ca2a809f7e1f9a4f0d0eee19c03b3a8799c0cba56ea52da2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/files/ANSIJSNRC1.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad220c99f72bf3c9ca2a809f7e1f9a4f0d0eee19c03b3a8799c0cba56ea52da2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_copy/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/tasks/user_and_group.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "803bd3cb7c7a599a2ee597315359d10119895fcb26395149e90ebfa2a1212a29",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/tasks/display.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d8ca97afa9794757f5476f62d6bb546cf52fd3354fb4a068d9636370369ea0b1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e2b8ce4f5cbaa56751f23328084ab21a9824aed1257b09641915649eb53e0ae0",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1ba6619c62d18bb77659d0aec719ae90941d1d755de9d47aaa440be287c18dd9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_user_and_group/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_start_subsystem",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_start_subsystem/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_start_subsystem/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02cb9a473229c0f5a4350f4919d0847f850632775c4953300ecbf0cf18d32cec",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_start_subsystem/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot/tasks/get_reboot_inputs.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d525db56dcbb4eb85b328e39e61d91f7eba39fe79fbf4804f4de1371419c9005",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot/tasks/get_boot_time.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "432390b155c32516642f46184bbbd3519edf58747d850dde4c54c678e3302e19",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "77fc56e8fc624b8db565cbe61046021480be62f3a15ab22a7e73699493935b80",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reboot/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/tasks/save_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "444b7cd5b98f5f309891ce173729f743258c089c3653a581f4952ec23bfc536b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2493408d56338738d431b538f427d012ae54c96afdb5aa10ab9e33fc69fcd3cc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "26c7607b33e546cccd4a7fc928194534098db8150b9d327ecc553c7e1d26dee5",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/files/IBMISAVF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b95a245ed9ac82d9f9f85cf884b1dc3bd2371e053fa5e01f4b836b12a4be2b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_lib_save/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_device_vary",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_device_vary/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_device_vary/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80e7821c6edee18cd59fdc3bed16098955f3d62019212d0c5528b76f21f71992",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_device_vary/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "597d388888e093b2b7cd8ca5b6066f95d4eceb03818d7de56e7c64e0a2a851c2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job/files/sbmjob_script.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb6021239ebbde71c99e9ca3d911e36489de3e443f3672690127ebd72a739863",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_submit_job/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "404a9ab4627d57684133b17f79e17efb736969d89472280588acb9f612ba901b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config/files/large.log",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a4ab3679558c8d3c89875a76064cf593420724e405fb9f3aefbce1ed09e8c0dd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_module_config/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_end_subsystem",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_end_subsystem/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_end_subsystem/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "86ea88711b0ca006b70e6dd2a3f4963e1d0cfc23d454fc9c7ee88a686424d814",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_end_subsystem/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/ibmi_fix has_requisites.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "23c69b8bf06dda199081817b237432093bcbd853068f1379a0debca563bcb5c4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/ibmi_fix_delayed.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0de8400b9d1f549e4c01beb12b6cf6a68013a59891a05e0fcc804e557ed2911c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/query_remove_ptf.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3765b0cd9d19f51d2da3791caaaea1ea1ed191b263e0d4a18b595577198b07f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "96bb8320da062e0e22dc215cb08d892f3825c3296912921d51541f783a5eaebc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/ibmi_fix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09bea82927bc8f15ea973e70272c6ef79df9240a1480a56d07423fa2ca2755f2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b401b0a36d39f9d7e20573ae2cd1e9672166e464cc29c2d49640810251116bcd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e8d632f9db7209967c5b2f6d734bede09841acc7b898dafc19f31c72cee9929",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f13674351f8231c9e60fc923652b1ce94b62357ee00fedaf23ad3af677aff656",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15ded60703f9515b255c1daf9c68feeeb64e2ca618a166e1efaac9a1756e6e97",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job/files/sbmjob_script.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb6021239ebbde71c99e9ca3d911e36489de3e443f3672690127ebd72a739863",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_job/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "865520725b4ef0aea74e259956aa96a358a3d9f3310a60fb16a0288a286eaf33",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/tasks/ibmi_synchronize.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "98ae96db1b01973849df85aac05d59b19bedbe7fd9c4a9d604f38ac402139124",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "33ae04f90b491a430a7caf2f6ff0789885785a8a35f074252ade0bba9e49c8b6",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acf598ae5c1c202ba4be7e3b6348e05a84f22335d7c9c00c896ad71bbd996518",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/files/SAVRST.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b95a245ed9ac82d9f9f85cf884b1dc3bd2371e053fa5e01f4b836b12a4be2b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/files/foo.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6a5ff9795209b3d64cb5c04d574515413f9fec7abde49d66b44de90d1e0db14",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_synchronize/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f13674351f8231c9e60fc923652b1ce94b62357ee00fedaf23ad3af677aff656",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_ethernet_port",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_ethernet_port/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_ethernet_port/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4722aa6926c23f184265db5a2d7011e2659088896d9bc46858eb18ddc69a70e8",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_ethernet_port/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link/tasks/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a31ca71121809e8a7ef96f609f1dd999c9644ff5010030c4105953f27f753ad4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4bedea0c2281d79ea63dc6fb4d1e8392f03127dc1241f68296036ea529a097e1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c9fec4ffeb4624f295d9ea35ae58c513aadb11fcd4777cc2bbe0d54c3ff85f7d",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_nrg_link/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f624e0d56eb8697879eeef93f22541f2b70a2c5690fb6bee3478fa78cee5b3c3",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at/files/at.sh",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a58f711986d7b9d8a168ec3e5be9fbff03ed095c79d117ddc30470b53e7ad1fc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_at/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/ibmi_fetch.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d6e3ec6a3edf1eec8bea499e6e74f923db56ea0f45b158ff266ad1c96fb2cbe",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/validate_on_i.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "529fda4f14a6013871fab13385fa8ad3aaf677a77068d63a84af6d47738d66b9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5dcf0827255d19af0ffd0843ec27518d9ea6c38cb5e213797e199a4556b7c92e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/copy_object.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8fdd8ae9957f617957fa963bec80cfb845407903c14c1637ab4cceac96cda8dc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/setup_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "828df17d2db364c7bcc783efa4badd5b6f19a8cdcad8cc8b236f5cb998ec6c24",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a3461d068916ddf139d1ce29f2ddaefeb77bf8ee2a8e1bf16f48eb3f7387d672",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/tasks/cleanup_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e8d69cc5fa749daca40f278a317db04fdf029165c4b775a6dadab72d2ce17a26",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e8d632f9db7209967c5b2f6d734bede09841acc7b898dafc19f31c72cee9929",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/files/FETCH.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "759eb5eb27e4bdb0a18f91427de188e6cc3b25ec7dd5da2ded433d13c980adf2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fetch/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c38d0850328c1952bb98c99b9c4e9fe5cc4b41f1a36dd3eadff76422e99ebadc",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/tasks/check_rpm.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0726ea02eb0590864519b5d7d598a61811190950ad6c059d5f848bffb18f0bf2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9f85d5cb5fe1277ac3cfcc28bb439d316c4eb5ce3058ff8aeeec2f27844c60d8",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/tasks/install_rpm.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec1d0b413024b1a25a74f4c60e1fc47e86c9b9c5d8aa639bfacdaace9ada6290",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_sql_query_execute/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_host_server_service",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_host_server_service/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_host_server_service/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75d2c1bff4123368076ee89533a5113b4cd010da48df42104513ddbab2e93054",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_host_server_service/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix/tasks/display_fix_with_pre.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b02ea71d67cd2b7e4cd8cb45500f41beb0b8942f3b5df1e4fb4fe104937342f2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix/tasks/display_fix_with_dist.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "222c4c68ffcb410c390730689e145ede5e1c0b3c43976b24125600ed4cfe46ea",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "537b271a6d8e78135ec4ff7ee86dffcf908148672ee5a0431fa336740f9d13e5",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_display_fix/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f13674351f8231c9e60fc923652b1ce94b62357ee00fedaf23ad3af677aff656",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks/message.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f886d5fdfe43d9ce19eacb586bc93cff742c3ccd5ecf1371169680ef3ef67bd0",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks/no_reply.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ded35358957aa764db877115ef0d2b2a94a8b8ef7185b89b95b8a232354797c7",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks/qsysopr.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "996a922188489342213539f64d6f269da4b4f2159accf21e2f7eb21705ed45a4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks/find_msg_id.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4e38670c723f51dd3b65fbf9b0c4d24e8538bc0214fe800d6e45175aefdbe410",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "771c9e44074f760848e311cf6a9fdd4efa6af6bc73c0911bad7201c985c69b50",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acf598ae5c1c202ba4be7e3b6348e05a84f22335d7c9c00c896ad71bbd996518",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_message/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/grant_object_authority.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c89de6b37913e2f6adfc671d7e9cb82349f38bbd48845481601278afbf8bcf9e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4605ef416561f93cc9c35ae237fb3682dc6838ab0d79b2b5630102e6060e1fa3",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/display_object_authority.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2463ef821413967f222167bae00e2240825ee6862bd0289565056daba148db47",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/grant_ref.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "734d69ac356a3cbf043b22a3c33bb55590edb9770c09a4265ad9fc47202093e7",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdfb4f30851114b4182e2bdc44989188bec7cbb7771920868d148b6b683d4636",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/tasks/grant_aul_list.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fcc77241431c923f38f85e4b4e325c54d59e57653e4a995ce62e2a6518a6a93",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/files/findobj.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e0132c5bd613aa91bd65f20a1fc4ad2238f211ef3e5855c8f83580aa0d434e2",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b2d28decf9eda7cb3d79f344ba59ba94c327c8b6d89618a6ce7f0d9f8b1e2b9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_authority/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/tasks/restore_object.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39ab557e88177c11dc6680438b617490e81cf456536e73894eb8cc257ee6ec1c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/tasks/dlt_crt_lib.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5fd779251b9ba80cc98f3cc19fa11ff5b72febeb85e2bcd7281bcfda25f2a68f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "592a33ac29ea1201f07a92d71aa8078ab18e94b96ba3d6434f4aaa52748ef724",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/files/IBMISAVF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b95a245ed9ac82d9f9f85cf884b1dc3bd2371e053fa5e01f4b836b12a4be2b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_restore/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/tasks/default.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2441ac1753320d2cd3bea299c160540e6ae31739ed235923ca478284d1fcfe09",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "766ab141899717320ba54e2bb1a6ba8cbc3cc7642d0023670154b49981ed1a91",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_setup_remote_tmp_dir/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c81323aba3baf93c55edc6fa04592061424ca07ba1267702ee88d4b84c3839fd",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reply_message",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reply_message/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reply_message/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10f08a750d3fdf8fed42b6f6e4744b37f49de3043de9044df8f330bf7c6ea6ed",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_reply_message/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface/tasks/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a31ca71121809e8a7ef96f609f1dd999c9644ff5010030c4105953f27f753ad4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f382c4dbaf503cb978d80d7f77020d9ae1d2f0909ab7da4319384a3710695533",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb7949fd1e46a217496ebd0629eed6726b0c79f9bfc0c257ee3a28784cfa658a",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_tcp_interface/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "18ee14cc7dfb775926a7d5de0bf2533d98d61d1582c9f37caf76c68a782921e4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/tasks/long_name.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c6bd63c169af841c283be3b0316cf43c8c2afbf39aca6ead44c80f584c97458e",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95f019fe5a5875a6888c79e675e765d15b89fece42d4ff2247e9dc2f72fa4d35",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/files/findobj.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4466bda0c5c6489ec8fca54c62f693d50156f1a7cbf6aa1096dc07152e958409",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_find/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b2d28decf9eda7cb3d79f344ba59ba94c327c8b6d89618a6ce7f0d9f8b1e2b9",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "20afc28edb7d35db5be7bacfc12596178556faea717f02091e3a2d3f3288b3a4",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/tasks/check_rpm.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "38a64330c938ff08fa4cc7d6e9da6e0735914df5d1d270a94dfd59801cae0766",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b4320caf62ddc24f306865181bdfe367419338222fc8eceeacedb094f7fab8df",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/tasks/install_rpm.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec1d0b413024b1a25a74f4c60e1fc47e86c9b9c5d8aa639bfacdaace9ada6290",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_cl_command/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f65283d889c079c5af3afb5c4641ff756164ccbe535adf368fe863c19625fdc1",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_query_job_log",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_query_job_log/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_query_job_log/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54ad372f277200ebd206ad9639ad9d388e34777274d748abdf71ac5a744c063c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_query_job_log/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/rmvptf.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8aee19c98597ef5cc99e7f760ab9c167cb49e67eee9fe89f09fc8458aef481b7",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/ibmi_fix_imgclg_74.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a351edbce217439de87e5aa7e5554e8f3c43ceab117f48419c0d3ae6d3d5103f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/ibmi_fix_imgclg.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5bb747803e8f69a81dfe7fd627d5a64fa089584988f2c6179e761405f43ad131",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/negative_case.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83a646d550366d73692f8054392473989ea5df9e4e563f648eefb3327160c85c",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "064724bac0124c83975c7a2327d546d7ad41c570b5a81483c4c44c5b42b2066f",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/tasks/remove_ptf.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4bafaec04d3a8cef681cb3105f0d9c2895e8be21c53a688a713da257d414b736",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e8d632f9db7209967c5b2f6d734bede09841acc7b898dafc19f31c72cee9929",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_fix_imgclg/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60945d49535300be8e42108658dba31fcd5d665fc40d6f186798e7e0682320ae",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/tasks/iasp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71e28416cab5504658bdd7bbca9d7946af1bba0c81ffd3941d1811ec674627ee",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6ffc87c33e4ad52ccfbc36cda9e6aef17056088158d571c6e64b4bb4fa1e4703",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/tasks/save_object.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d62dc640f2536eddc36e281b3ac00120602452b9dd6c62afa1217d76afa8a25b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/files/IBMISAVF.FILE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64b95a245ed9ac82d9f9f85cf884b1dc3bd2371e053fa5e01f4b836b12a4be2b",
+   "format": 1
+  },
+  {
+   "name": "tests/integration/targets/ibmi_object_save/aliases",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09434c674e2dc3099da358548bba10320d0d44249e83cbcf6825b49e8adac65f",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/tasks/load_individual_ptf.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "adf1b014faaed26457863dfc7061dc370afe7d6d6944ec2979e7ccf59fc49dfa",
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10edb13fdc6a1e44199b1ae2fba498b6d56e099ede8bb02a4009720fd6637007",
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78738dff5804bcf8c5c99869d91c925a66fc5dba54738c19b5c90b0adfd4536c",
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "865ce6acddaac51364600cb07453da1b2631319858e9ce9d2fd3ec6c1c712e31",
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/load_ptf/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ddbfddf2a9188ba208c9021092fb6dfafb5df0378f65a8bbce39e749e986179",
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/tasks/find_ptfinfo.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "611d1659b377616404718bb21e9296be6160480bf4f0a629cefbc6ddc0cfdfe2",
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "03d801b5395e512ffa1f8523fd847fa4aa25b4d3dc6f00cce86176fb55f68c67",
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef0dfcd8a384b4decfe23f8bc4dafd257b237c8d4b03cdfc3d1baafc0b97fed2",
+   "format": 1
+  },
+  {
+   "name": "roles/check_ptf/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c7e29861d652ab4304d854a12f43cae499fe37107e61e999681b9cd9c534a4f",
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fd455351e642b55161114601c23ac27eb4ab7f50fffe06ceef642fb5a8fedd73",
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee41bdcec2e7561f6689efd154b0203a84b222ad7e474c7a64b9ea7888f51053",
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "84ee9cb1cefb8043d6170c3cf66803651edc18f16e77ebbb74c7c932ffb77da1",
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/apply_all_loaded_ptfs/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c01828703f1365866362122db68e96ba8f5ace4db5a8ba18f3bc30b9a488fafa",
+   "format": 1
+  },
+  {
+   "name": "roles/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d05896d220d92934598e7bffb22d19425dadac33eb9f7d1efa6b1d4751e55039",
+   "format": 1
+  },
+  {
+   "name": "playbooks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/.hosts_ibmi.ini.un~",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "726e7ba06a68ec1177b0f0d0d041a280b70710660fbc538aaaee16b91bc0b6c6",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-sqlite3-sample.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3c61cfd6a603cf074ccfb800b654e3cc32d11cdce64ecdb55a64abe34f418d6",
+   "format": 1
+  },
+  {
+   "name": "playbooks/hosts_ibmi.ini",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "47e77f005f43c7734df527f41fb007b4feba58d230f80431c3229b004e82579a",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-check-default-passwords.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7e0d92689c68d29e99485724abb74e237b11af422a34c9290e2d891d09db5dd0",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable-ansible-for-i",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable-ansible-for-i/ibmi-install-yum.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec206d2824b742550be84f6dd5f313cd156a002b09b7dc2b0f5f5377f4533258",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable-ansible-for-i/ibmi-install-rpm.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e7863e656856c78371b145367755d74d1887eed99869d8ef5936ec1632a4bd5b",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable-ansible-for-i/setup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00170631f588606c056f31093ae435302aa1a0da90314a25c4e29118d3ad548c",
+   "format": 1
+  },
+  {
+   "name": "playbooks/query-iasp-sample.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "46cfeca3ec90d8f5c7ac974e468906ad4685ba1226586d66b0b23e84898e0f36",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-sql-sample.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a057d86a6824d995300913d7d70cea185e63003fb90b1b0ded9f8ad4b1128255",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-sysval-sample.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "daaf513e1e6d90adecef7eb1fa7c9aa237f8bc58137eb6b27b8e3626fe7f4030",
+   "format": 1
+  },
+  {
+   "name": "playbooks/.ssh-addkey.yml.un~",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "811cc2dc25587cef5929ff0d1b960b5490dc4d78c2476390152da39175f101e4",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/transfer_files.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63e6a78f36c2fa8d0c03c7d08fabbb52563b75e59f10d8d3eb89c2590d9979c2",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3c2f1d0855ec1be659cab0a8cfd525f019af0edfbe1e61fae52392f60cdbe62d",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/ibmi_install_python.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c19ce2776e3af2b51be763346e8f1432e052e766f01941b4cfad8edc0c68d4a",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/ibmi_install_yum.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "806a722eccc057f10871acedfae53eb6c3359b63c74eee300443ccede12e2e65",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/ibmi_install_dependencies.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b7140d9641ffb853135c1b680a34b6a4250b60de3f9a894c54ebca465e4279de",
+   "format": 1
+  },
+  {
+   "name": "playbooks/enable_offline_ibmi/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "81ebb10582b4d9d057d72ac831ee84cde470ec94655d0098c43c8768ba3bf5e3",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-install-nodejs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-install-nodejs/ibmi-install-nodejs.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "13e51aea83c528841e70d384841abe22ffc9b00942b85990f12f78a624efa62d",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ssh-addkey.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61ddb80c3149355c99cb63807c9a4caacc9905c7d763370cdeaa92ac72dcd99e",
+   "format": 1
+  },
+  {
+   "name": "playbooks/ibmi-cl-command-sample.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b47d096a2d9f4211673f8e731124d0fa49d5c536ab1030a300ab314dc6914d4a",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/Makefile",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a1f71e5f2c6db1d91b40f20b8e978c18185aa16dcc1fe1d556d84e7bcd2693ee",
+   "format": 1
+  },
+  {
+   "name": "docs/source",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/source/index.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "70b4d576afb9f19a912abf0b78136de7e30e7e4c47b0b854972aa9ddc3174762",
+   "format": 1
+  },
+  {
+   "name": "docs/source/plugins.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c08b6ecfdbaae4aceea21f999c5bc6b3cfdd56f8ac8658e8830cb07759e253f9",
+   "format": 1
+  },
+  {
+   "name": "docs/source/conf.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bb825491155cd10eceed38fa582de678533e8459318d5613996f028fe049df82",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6e712dbf7aa411360e00d21f1a2cfba8e6fa677d9f4cf3389b393a2bfa6fc507",
+   "format": 1
+  },
+  {
+   "name": "docs/source/installation.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5a30d79d2a070bdff505997300c64f0b1440888fd72777ca64a9460b507afcac",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_install_product_from_savf.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6aa8b0fd502bf1181444c5f167082977b8ba9e5eef32de3983a90b092ec6a119",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_lib_save.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "201cbeacea5438e5ec464b69c6a1c6c01c0aca09ec07af1bd090413e88c4cd36",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_object_restore.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8649d99e6bc3e5593d67ecb5e15e42f51f099dcb4d30c3070a83a55a8c60ddfd",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_fix.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a4cfd9437c1eb29329e47d48b4814b64a386704af0bae0060b8a383915490798",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_script_execute.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4ad72a0b1f917645badd72fa3863e355241f86b3df58a5531e2108bbec5e741b",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sysval.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "25e95f09de470e6b3babb34f3c178a79c5f9a661b83d6111d86d5f5dc0921f0a",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_fix_group_check.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "440e715a6a0b3c6a80805ba98bc87ffaee045c10ce77cc56907e91f4d43491ec",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sync.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "65999b01d0477c95f04e1891ee6c851ee1887324e45776ba82b25323068665f6",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_ethernet_port.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2d5331ab373fb3a8a996ceb744fd049a49b9c4fc4a4a8104978e46917ee33314",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_start_subsystem.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "975b00bead26f3a9f7b5d56e5ba1c50b5c77afc44913952d4ff48f6046cd3879",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_reply_message.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9eb97ca1e8a92c6204ca97cfd70b6972e1fbd94276e667ecfc7871710d0d17ee",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_object_find.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ec7a4df2e80a984ac890482dbed47437eca29f500547fa7cba36b7249355bef7",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_at.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6d96f681773f85f2d5f0229c03ef16b9194558526efb0c05bd9670897a8e71e4",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_object_save.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "491f46dc183e22abc184c417638a81c14ac6723f7d3f6bdb7e723fd7d3b892b4",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_user_and_group.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab6fde1a40af1442240f31a111179a5e88bad7eb4a0b667ceaf9bbcdd9ec2201",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_module_config.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d6822988e5bf32a09b829261a869d203d52c1ddf06ad4c81cb5702e0706916bb",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_job.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c52c552d9d055587c3b09a01194ecf7bb3f4d4ef03c204dcda37faff40155842",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_end_subsystem.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88dc2cdc92705bbcb395cb52607ac0ada504a996f61ea5627a557957d54bfaf7",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_object_authority.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a0da1b0fccfdb7ce7658b5d5680dec3b75e846e356fcd57de797e7d4770f2609",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_display_subsystem.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55a4c34144a63ac50fe6a84ea174d6dffacc2cfbc7ed27cbac5861fd5946f1d6",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_device_vary.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "21bce1f59301a32a81b0fa46e59e4762173ec8fa2ca0570df1f6963af4a9fa7f",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_copy.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cecb7129619ef9a4503f2d74aebf1e9d380274efc50dbbd339f601aa528ca005",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_display_fix.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0e70de109d80a90a1983d5abab248fe4b86120cf2a2caf7ccba4817638070041",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_script.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ccab3b1a6ab918c762614fdd88ea7d23297d22f6c2c535c84f51f2c5ae7449a3",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_uninstall_product.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1a65a0dea46e6f8a2a33da9726660c2e538ddf1350f708e7bcb72e4e77948b39",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_submit_job.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2191cc2be537fee430b901ce034193e3eb543d8798ec7f084443a18d6061e1b3",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sync_files.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2e1bb81baa1b1910902b332188dfb23675fe0b48f6ba689fa123976e39fcde5a",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_nrg_link.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9a86ead6d9df9bd59a8eabaef0170dc398b6731cdc2bbb24ce01ce90c9ff7ead",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_host_server_service.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef58f6be7533161c156e9e3414ebd6856cfbbb1632a4e08f451c943a9edf0d71",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_message.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f06dd67c02935fdda936c7035b9089ebdd227154f38f8678893f9415b216e031",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_fix_imgclg.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42d92e26236cb5ed5b1ad893c7aa5c4118717051823c04e36b368fd8bc62151d",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_tcp_interface.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58c1fd8d52dcc3e53f3871a79ef48aadfbcc28b4de12a5de1b31bf206e6fe3d4",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_get_nonconfigure_disks.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64d3f0985fecaa72b24b0afcbdc87043689d7763c1b6da783aefa61816aadf7a",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_tcp_server_service.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5825fa254a08a808406b04150609d4255fbc1d325333631ef7f776ba0edf9163",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_lib_restore.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a1b0a717f198c74b0fcca37c5628a3b7d6f1116c382be8e73631736b641bf425",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_save_product_to_savf.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6dca82f8ff7c1ce9d0ee4223ee9c959bf8be3f48fe697b5f315c36b58c2b7df8",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sqlite3.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c24692082dc0c64258ea81a9a9ced74e11717e4c0bdd757c5c32a3c2c386cca",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_iasp.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc3144a3b92a7b59d1047d942675338c7266eaf2c8dc88ca4b93a9c9d4ce7728",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_reboot.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c5ca6f8864d93f6aec376a03c6a715ef888680c6878c862d1d8d76f697e914aa",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sql_execute.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f06ed0d4f6cc4e29a5933f6d153cb22549fc62edf93d024a77318c783f9017e9",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_cl_command.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e00cf16da182450d41b3ad57057997e77da12ecff893f02b608029199030975",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_synchronize.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8bb120206cb889558cb5dfd456c24c6a69e06a6fd6c2fa5c1443137d403dbb3",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_sql_query.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "901751c7e017663472d48f653e35dca53c343b993b3e08c92673da4208d8917a",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_query_job_log.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0fa3e3c5c850ee6135a1fc5932dcad74a1d2c52750327582eab701dc99e863c9",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_synchronize_files.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "969dd581f18bb2a403d9d978e751e5d8891a0730635c3bbcfa77341fd42f43d2",
+   "format": 1
+  },
+  {
+   "name": "docs/source/modules/ibmi_fetch.rst",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "57d3e13dc942c4425d81dd656ca024cf175cbf0ec80e2f32f19e1a03977fe630",
+   "format": 1
+  },
+  {
+   "name": "docs/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/templates/module.rst.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "317866c2a49bd41e3ceba2ea21feba9acbaca45c51840a96f0944adba294b978",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f6065454fa2e5422f36b0eba9544ca5d2dbcd74a5692e3c5b77a9ecf9abcd8fd",
+   "format": 1
+  },
+  {
+   "name": "COPYING",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227",
+   "format": 1
+  },
+  {
+   "name": ".gitignore",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac244209df6370a954b10db85f1630454dd22ca7e616f351cad19d49e8aa6ce1",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

@@ -1,0 +1,32 @@
+- name: Using the IBM Spectrum Virtualize collection
+  hosts: localhost
+  tasks:
+    - name: Gather info from storage
+      ibm.spectrum_virtualize.ibm_svc_info:
+        clustername: 192.168.143.59
+        domain:
+        username: superuser
+        password: P@ssw0rd
+        log_path: /tmp/playbook.debug
+        name: gather_info
+        state: info
+        gather_subset: vol
+      register: vol
+
+    - name: pring vol
+      debug:
+        msg: "{{ item.vdisk_UID }}"
+        #when: item.volume_name  == "{{ volname }}"
+      when: item.volume_name  == "HKG_LPAR12_RG0"
+      loop: "{{ vol.Volume }}"
+      register: new_vol
+
+    - name: Json Query
+      set_fact:
+        example_output: "{{ vol | json_query(query)|first  }}"
+      vars:
+        query: "Volume[?volume_name==`{{volname2}}`]"
+
+    - name: print new vol uuid
+      debug:
+        msg: "{{ example_output.vdisk_UID }}"

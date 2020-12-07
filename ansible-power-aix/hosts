@@ -1,0 +1,2 @@
+[aix]
+192.168.138.26 ansible_user=root

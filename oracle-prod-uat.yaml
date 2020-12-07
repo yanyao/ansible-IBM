@@ -1,0 +1,100 @@
+- name: Using the IBM Spectrum Virtualize collection
+  hosts: localhost
+  tasks:
+    - name: Gather info from storage
+      ibm.spectrum_virtualize.ibm_svc_info:
+        clustername: 192.168.143.59
+        domain:
+        username: superuser
+        password: P@ssw0rd
+        log_path: /tmp/playbook.debug
+        name: gather_info
+        state: info
+        gather_subset: all
+
+    - name:  Create a new Lun from Flash system 
+      ibm.spectrum_virtualize.ibm_svctask_command:
+       command: [
+         "svctask mkvdisk -autoexpand -grainsize 256 -iogrp io_grp0_F9100  -mdiskgrp '{{ pool }}' -name {{ volname }} -node node1 -rsize 0% -easytier '{{ easy_tier }}' -size {{ size }} -unit {{ unit }}",
+         "svctask mkfcmap -cleanrate 0 -copyrate 0 -source {{ src_vol }}  -target {{ volname }} -name snaptest_map"
+       ]
+       clustername: "{{ clustername }}"
+       username: "{{ username }}"
+       password: "{{ password }}"
+       log_path: /tmp/playbook.debug
+
+- name: Back up Oracle
+  hosts: prod-oracle
+  tasks:
+    - name: Back up oracle db
+      command: /shdata01/2backuporacle.sh
+      #command: ls -al
+
+- name: Using the IBM Spectrum Virtualize collection
+  hosts: localhost
+  tasks:
+    - name: SVC takes snapshot
+      ibm.spectrum_virtualize.ibm_svctask_command:
+       command: [
+         "svctask startfcmap -prep snaptest_map"
+       ]
+       clustername: "{{ clustername }}"
+       username: "{{ username }}"
+       password: "{{ password }}"
+       log_path: /tmp/playbook.debug
+       
+- name: Restart Prod Oracle DB
+  hosts: prod-oracle
+  tasks:
+    - name: Restart Prod Orcale
+      command: /shdata01/4prdtonormal.sh
+
+- name: Using the IBM Spectrum Virtualize collection
+  hosts: localhost
+  tasks:
+    - name: SVC takes snapshot
+      ibm.spectrum_virtualize.ibm_svctask_command:
+       command: [
+         "svctask mkvdiskhostmap -force -host 8  {{ volname }}"
+       ]
+       clustername: "{{ clustername }}"
+       username: "{{ username }}"
+       password: "{{ password }}"
+       log_path: /tmp/playbook.debug
+
+
+
+- name: Get the new volume UUID
+  hosts: localhost
+  tasks:
+    - name: Gather info from storage
+      ibm.spectrum_virtualize.ibm_svc_info:
+        clustername: "{{ clustername }}"
+        domain:
+        username: "{{ username }}"
+        password: "{{ password }}"
+        log_path: /tmp/playbook.debug
+        name: gather_info
+        state: info
+        gather_subset: vol
+      register: vol
+
+    - name: Json Query
+      set_fact:
+        volume_output: "{{ vol | json_query(query)  | first}}"
+      vars:
+        query: "Volume[?volume_name==`{{volname}}`]"
+
+    - name: print new vol uuid
+      debug:
+        msg: "{{ volume_output.vdisk_UID }}"
+
+- name: Discover the new Disk to UAT and start UAT oracle
+  hosts: uat-oracle
+  tasks:
+    - name: Volume Group activate and mount
+      command: "/home/root/pha/6raixvg.sh {{ hostvars['localhost']['volume_output']['vdisk_UID'] }}"
+    
+    - name: Start UAT oracle
+      command: /home/root/7ruatdbstart.sh
+

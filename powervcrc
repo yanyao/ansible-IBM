@@ -1,0 +1,31 @@
+# Copy this file to your user's home directory and edit as necessary.
+# In particular, you may wish to set these values:
+#    - OS_USERNAME     : Your PowerVC user name
+#    - OS_PASSWORD     : Your PowerVC password. If not set, openstack CLIs
+#                        will prompt for the password as needed.
+#    - OS_PROJECT_NAME : If you have multiple projects, specify which project
+#                        you want to access; else you can leave this as
+#                        ibm-default.
+#
+# NOTE: You should not add your password to this file until/unless its file
+# permissions prevent other users from reading it. This is one reason to copy
+# the file to your home directory and edit it there. Or you may wish to not
+# add your password at all and have the CLI prompt you, as noted above.
+ 
+export OS_IDENTITY_API_VERSION=3
+export OS_AUTH_URL=https://192.168.139.131:5000/v3/
+export OS_CACERT=/etc/pki/tls/certs/powervc.crt
+export OS_REGION_NAME=RegionOne
+export OS_PROJECT_DOMAIN_NAME=Default
+export OS_PROJECT_NAME=ibm-default
+export OS_TENANT_NAME=$OS_PROJECT_NAME
+export OS_USER_DOMAIN_NAME=Default
+export OS_USERNAME=root
+export OS_PASSWORD=abcd1234
+export OS_COMPUTE_API_VERSION=2.46
+export OS_NETWORK_API_VERSION=2.0
+export OS_IMAGE_API_VERSION=2
+export OS_VOLUME_API_VERSION=2
+export OS_CACERT=./powervc.crt
+
+

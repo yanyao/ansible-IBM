@@ -1,0 +1,15 @@
+---
+- name: "NIM check on AIX playbook"
+  hosts: nimserver
+  gather_facts: no
+
+  collections:
+  - ibm.power_aix
+  tasks:
+
+    - name: "AIX NIM"
+      nim:
+        action: 'check'
+        description: 'NIM check'
+      register: nim_output
+    - debug: var=nim_output

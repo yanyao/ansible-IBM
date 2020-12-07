@@ -1,0 +1,24 @@
+- name: IBM i check a set of PTFs
+  hosts: all
+
+  vars:
+    check_ptf_list:
+      - {'ptf_number':'SI73543', 'product_id':'5770UME', 'savf_name':'QSI73543'}
+      - {'ptf_number':'SI73430', 'product_id':'5733SC1', 'savf_name':'QSI73430'}
+
+  tasks:
+    - name: check ptf status
+      include_role:
+        name: check_ptf
+
+    - name: print ptfs status
+      debug:
+        msg: 'ptfs info: {{ ptfs_info }}'
+
+    - name: print ptfs status
+      debug:
+        msg: 'ptfs status: {{ ptfs_status }}'
+
+    - name: print to be loaded ptf list
+      debug:
+        msg: "to be loaded ptf list: {{ to_be_load }}"

@@ -1,0 +1,34 @@
+- hosts: aix
+  tasks:
+    - name: copy the the fix to /tmp
+      copy:
+        src: files/IJ01262s1a.180328.AIX72TL02SP01.epkg.Z
+        dest: /tmp
+
+    - name: Install ifix package from file generated with epkg
+      emgr:
+        action: install
+        ifix_package: /tmp/IJ01262s1a.180328.AIX72TL02SP01.epkg.Z
+        working_dir: /tmp
+        from_epkg: yes
+        extend_fs: yes
+
+        #- name: install the patch with emgr
+        #command: emgr -e /tmp/IJ01262s1a.180328.AIX72TL02SP01.epkg.Z
+        #- emgr:
+        #action: list
+        #register: emgr_out
+
+    - name: check with emgr -l
+      shell: emgr -l|grep IJ01262s1a
+      register: emgr_out
+
+    - debug: 
+        var: emgr_out
+
+    - name: remove fix file
+      file:
+        path: /tmp/IJ01262s1a.180328.AIX72TL02SP01.epkg.Z
+        state: absent
+
+

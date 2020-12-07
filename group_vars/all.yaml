@@ -1,0 +1,10 @@
+clustername: 192.168.143.59
+username: superuser
+password: P@ssw0rd
+src_vol: HKG_KLN11_datavg_0
+volname: snap_HKG_KLN11_datavg_0
+pool: FCM_96_12
+easy_tier: "off"
+size: 322122547200
+unit: b
+volname2: HKG_LPAR12_RG0

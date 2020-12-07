@@ -1,0 +1,49 @@
+# Copyright (c) IBM Corporation 2020
+
+# IBM collection namespace
+namespace: ibm
+
+# Ansible collection for Power AIX OS
+name: power_aix
+
+# The version of the collection.
+version: 1.0.2
+
+# Collection README file (relative to root path)
+readme: README.md
+
+# A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
+# @nicks:irc/im.site#channel'
+authors:
+- Paul B. Finley (@pbfinley1911)
+
+# Collection Description
+description: Ansible Content for IBM Power Systems - AIX provides a collection of content used to manage and deploy Power Systems AIX.
+
+# Collection License
+license:
+- GPL-3.0-only
+
+# Collection Tags
+tags: [infrastructure, ibm, power, aix]
+
+# Collection Dependencies
+dependencies: {}
+
+# The URL of the originating SCM repository
+repository: https://github.com/IBM/ansible-power-aix
+
+# The URL to any online docs
+documentation: https://ibm.github.io/ansible-power-aix/index.html
+
+# The URL to the homepage of the collection/project
+homepage: https://github.com/IBM
+
+# The URL to the collection issue tracker
+issues: https://github.com/IBM/ansible-power-aix/issues
+
+# Files to ignore when building power_aix collection
+build_ignore:
+- builds
+- devops
+- '*.tar.gz'

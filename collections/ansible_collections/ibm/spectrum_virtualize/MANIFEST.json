@@ -1,0 +1,33 @@
+{
+ "collection_info": {
+  "description": "Ansible Collections for IBM Spectrum Virtualize", 
+  "repository": "https://github.com/ansible-collections/ibm.spectrum_virtualize", 
+  "tags": [
+   "storage"
+  ], 
+  "dependencies": {}, 
+  "authors": [
+   "Peng Wang <wangpww@cn.ibm.com>", 
+   "Shilpi Jain <shilpi.jain1@ibm.com>"
+  ], 
+  "issues": "https://github.com/ansible-collections/ibm.spectrum_virtualize/issues", 
+  "name": "spectrum_virtualize", 
+  "license": [
+   "GPL-3.0-or-later"
+  ], 
+  "documentation": "https://github.com/ansible-collections/ibm.spectrum_virtualize", 
+  "namespace": "ibm", 
+  "version": "1.2.0", 
+  "readme": "README.md", 
+  "license_file": null, 
+  "homepage": null
+ }, 
+ "file_manifest_file": {
+  "format": 1, 
+  "ftype": "file", 
+  "chksum_sha256": "50fa27a6556430d13e5517448bafb229b2964c9b78f9f220daf3d8de7c09b327", 
+  "name": "FILES.json", 
+  "chksum_type": "sha256"
+ }, 
+ "format": 1
+}
